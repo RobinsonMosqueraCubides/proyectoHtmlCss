@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+i{
+    color: #fff;
+}
 *{
     font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
 }
 body{
     background-color: #1e1d2b;
@@ -64,7 +70,7 @@ header .menu a{
     background-color: #ff702a;
     font-size: 20px;
     cursor: pointer;
-    padding: 15px 50px;
+    padding: 15px 40px;
     cursor: pointer;
 }
 .principal .ImgPrincipal{
@@ -107,7 +113,7 @@ header .menu a{
 .pagina2 .about p{
     color: #fff;
     width: 60vh;
-    font-size: 30px;
+    font-size: 20px;
 }
 .pagina2 .about button{
     border: none;
@@ -116,6 +122,119 @@ header .menu a{
     background-color: #ff702a;
     font-size: 20px;
     cursor: pointer;
-    padding: 15px 50px;
+    padding: 15px 40px;
     cursor: pointer;
+}
+.pagina3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.pagina3 .text{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.pagina3 .text h3{
+    text-decoration: none;
+    color: #ff702a;
+    font-size: 25px;
+    margin: 0;
+}
+.pagina3 .text p{
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+}
+.pagina3 .imgTxt{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pagina3 .imgTxt div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffefe8;
+    padding: 20px;
+}
+.pagina3 .imgTxt div img{
+    width: 250px;
+}
+.pagina3 .imgTxt div p{
+    color: #000;
+    text-decoration: none;
+    margin: 0;
+}
+.pagina3 .imgTxt div p:nth-child(4){
+    color: #ff702a;
+    font-size: 15px;
+}
+.pagina3 .imgTxt div p:nth-child(3){
+    font-size: 15px;
+}
+.pagina4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pagina4 .pagHeader{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.pagina4 .pagHeader h3{
+    color: #ff702a;
+    font-size: 25px;
+    margin: 0;
+}
+.pagina4 .pagHeader p{
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+}
+.pagina4 .service{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pagina4 .service div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pagina4 .service div img{
+    width: 250px;
+}
+.pagina4 .service div p{
+    color: #ff702a;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+}
+.pagina4 .service div p:nth-child(3){
+    color: #fff;
+    font-size: 15px;
+    padding: 0 35px;
 }
