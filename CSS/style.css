@@ -72,6 +72,7 @@ header .menu a{
     cursor: pointer;
     padding: 15px 40px;
     cursor: pointer;
+    border-radius: 2px;
 }
 .principal .ImgPrincipal{
     display: flex;
@@ -88,11 +89,17 @@ header .menu a{
     justify-content: space-around;
     align-items: center;
 }
-.pagina2 .imgAbout img{
-    height: 60vh;
+.pagina2 .imgAbout{
+    width: 50%;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.pagina2 .imgAbout img{
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
 .pagina2 .about{
     display: flex;
@@ -159,6 +166,7 @@ header .menu a{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    margin: 0;
 }
 .pagina3 .imgTxt div{
     display: flex;
@@ -166,7 +174,8 @@ header .menu a{
     align-items: center;
     justify-content: center;
     background-color: #ffefe8;
-    padding: 20px;
+    padding: 60px;
+
 }
 .pagina3 .imgTxt div img{
     width: 250px;
@@ -237,4 +246,80 @@ header .menu a{
     color: #fff;
     font-size: 15px;
     padding: 0 35px;
+}
+.pagina5{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pagina5 .letrero{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pagina5 .letrero div{
+    background-color: #ffefe8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 400px;
+}
+.pagina5 .letrero div h2{
+    color: #000;
+    font-size: 80px;
+    text-align: center;
+}
+.pagina5 .letrero div button{
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #ff702a;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px 40px;
+    cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.pagina5 .contacto{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pagina5 .contacto div{
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+}
+.pagina5 .contacto div h3{
+    color: #fff;
+    font-size: 25px;
+}
+.pagina5 .contacto div h3::after{
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: #ff702a;
+    margin-top: 2px;
+    display: block;
+}
+.pagina5 .contacto div a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.pagina5 .contacto .redes .iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+    color: #ff702a;
+
 }
