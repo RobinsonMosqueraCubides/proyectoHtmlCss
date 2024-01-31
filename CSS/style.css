@@ -331,7 +331,12 @@ header .buscar{
 @media screen and (max-width: 768px) {
     header{
         display: flex;
+        position: absolute;
         width: 100%;
+        margin: 0;
+        padding: 0;
+        right: 0;
+        left: 0;
     }
     header .logo a{
         font-size: 40px;
@@ -357,7 +362,7 @@ header .buscar{
         display: flex;
         flex-direction: column;
         position: absolute;
-        right: 10vw;
+        right: 20px;
         margin: 0;
         border: none;
         outline: none;
